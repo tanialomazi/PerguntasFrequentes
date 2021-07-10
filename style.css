@@ -1,0 +1,76 @@
+﻿body
+{font-family: Calibri;
+}
+
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: darkgoldenrod;
+    padding: 10px;
+    margin: 0 0 20px 0;
+}
+
+.qt {
+    width: 40%;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgb(128,128,128,0.5) 5px 5px 5px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.qt-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.bt {
+    color: darkgoldenrod;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+}
+
+    .bt:hover {
+        transform: rotate(90deg);
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+.bt-minus {
+    display: none;
+}
+
+.ride-bt-plus {
+    display: none;
+}
+
+.show-bt-minus {
+    display: flex;
+}
+
+.ans {
+    padding: 5px;
+    color: gray;
+    display: none;
+}
+
+.show-ans {
+    display: inline;
+}
